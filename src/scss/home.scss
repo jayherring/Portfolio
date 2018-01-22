@@ -60,6 +60,10 @@
 		.profile-section{
 			display: inline-block;
 			vertical-align: top;
+			max-width: 500px;
+			padding: 20% 0 0 0;
+				
+
 
 
 			.profile{
@@ -67,7 +71,7 @@
 					font-size: 2.3rem;
 					font-weight: 500;
 					line-height: 1.2;
-					margin: 0 0 1.4rem 0;
+					margin: 0 0 1rem 0;
 					span{
 						color: $color1;
 					}
@@ -75,6 +79,12 @@
 				h5{
 					font-size: 1.1rem;
 					margin: 0 0 2rem 0 ;
+				}
+				p{
+					color: $color4;
+					font-weight: 300;
+					line-height: 1.4;
+					margin: 0 0 2rem 0;
 				}
 			}
 		}
