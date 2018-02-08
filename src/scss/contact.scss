@@ -1,4 +1,4 @@
-.home{
+.contact{
 	.info-section {
 		padding: 54px;
 		width: 35%;
@@ -17,23 +17,18 @@
 			position: relative;
 			height: 100%;
 
-			.usr-img{
+			.form-section{
 			position: absolute;
 			top: 56px;
 			left: -250px;
 			width: 500px;
 			height: calc(100% - 112px);
-			 background: url(https://www.theplace2.ru/archive/tyra_banks/img/001~159.jpg) no-repeat center center; 
-  			-webkit-background-size: cover;
-  			-moz-background-size: cover;
-  			-o-background-size: cover;
-  			background-size: cover;
   			-webkit-box-shadow: 9px 20px 80px 6px rgba(0,0,0,0.34);
 			-moz-box-shadow: 9px 20px 80px 6px rgba(0,0,0,0.34);
 			box-shadow: 9px 20px 80px 6px rgba(0,0,0,0.34);
 			}
 		}
-		.profile-section{
+		.contact-section{
 			display: inline-block;
 			vertical-align: top;
 			max-width: 500px;
