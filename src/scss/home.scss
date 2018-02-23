@@ -17,6 +17,7 @@
 			position: relative;
 			height: 100%;
 
+
 			.usr-img{
 			position: absolute;
 			top: 56px;
@@ -64,3 +65,188 @@
 		
 	}
 }
+
+//phone
+@media (max-width: 767px) { 
+	.home{
+		
+		.menu-icon {
+			top: -3px;
+			right: 20px;
+			color: white;
+			.fa{
+				color: white;
+			}
+		}
+		.content-area{
+
+			&:after{
+				content:"";
+				display: table;
+				clear: both;
+			}
+		}
+
+		.info-section {
+			position: static;
+			padding: 10px 20px;
+			
+			.logo {
+				height: 50px;
+				width: 70px;
+				font-size: .9rem;
+				font-weight: 500; 
+			}
+			.info-box{
+				display: none;
+			}
+
+		}
+		.content-area{
+			margin-left: 0;
+			width: 100%;
+			overflow: auto;
+			.image-container{
+				padding: 56px 20px 0;
+				.usr-img{
+					position: static;
+					width: 100%;
+					padding: 20% 20px 0;
+
+				}
+			}
+			.profile-section {
+				width: 70%;
+				float:right;
+				padding: 20% 20px 0;6
+
+				.ghost-btn,.primary-btn {
+					margin-bottom: 20px;
+				}
+
+			}
+		}
+
+	} 
+}
+//tablet
+@media (min-width: 768px) and (max-width: 991px) {
+	.home{
+		.info-section{
+			width: 20%;
+			padding: 56px 20px;
+			.logo{
+				width: 171px;
+			}
+			.icon-section{
+				
+				a{
+					font-size: 1.4rem;
+				}
+			} 
+
+		}
+		.content-area{
+			margin-left: 30%;
+			width: 70%;
+			.image-container{
+				padding: 56px 20px 0;
+				.usr-img{
+					position: static;
+					width: 100%;
+					padding: 20% 20px 0;
+
+				}
+			}
+			.profile-section {
+				width: 70%;
+				float:right;
+			}
+		}
+
+	} 
+
+	
+ }
+ //laptop
+@media (min-width: 992px) and (max-width: 1199px ) { 
+	.home{
+		.info-section{
+			width: 20%;
+			padding: 56px 20px;
+			.logo{
+				width: 171px;
+			}
+			.icon-section{
+				
+				a{
+					font-size: 1.4rem;
+				}
+			} 
+
+		}
+		.content-area{
+			margin-left: 30%;
+			width: 70%;
+			
+			.image-container{
+				float:left;
+				padding: 56px 20px 0;
+				.usr-img{
+					position: static;
+					width: 100%;
+					//padding: 20% 20px 0;
+
+				}
+			}
+			.profile-section {
+				width: 70%;
+				float:left;
+				padding: 20% 20px 0;
+				max-width: 800px;
+			}
+
+		}
+
+	} 	
+ }
+@media (min-width: 1200px) and (max-width: 1500px){
+	.home{
+		.info-section{
+			width: 20%;
+			padding: 56px 20px;
+			.logo{
+				width: 171px;
+			}
+			.icon-section{
+				
+				a{
+					font-size: 1.4rem;
+				}
+			} 
+
+		}
+		.content-area{
+			width:80%;
+			margin-left: 20%;
+			.image-container{
+				float:left;
+				padding: 56px 20px 0;
+				.usr-img{
+					position: static;
+					width: 100%;
+					//padding: 20% 20px 0;
+					padding: 20% 60px 0;
+
+				}
+			}
+			.profile-section {
+				width: 70%;
+				float:left;
+				max-width: 800px;
+				padding: 20% 60px 0;
+			}
+		}
+
+	} 	
+ }

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" src="/dist/d8ad70d48a7d5745634882368d21ce01.js">
 	</script>
 	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,300,400,500,600,700" rel="stylesheet">
@@ -11,7 +12,7 @@
 
 
 <link rel="stylesheet" href="/dist/d8ad70d48a7d5745634882368d21ce01.css"></head>
-<body class="home">
+<body class="contact">
 	<div class="menu-icon">
 		<i class="fa fa-bars" aria-hidden="true"></i>
 	</div>
@@ -46,22 +47,34 @@
 
 	<section class="content-area">
 		<div class="image-container">
-			<div class="usr-img">
-				<input type="text" name="">
-				<input type="text" name="">
-				<input type="text" name="">
-				<textarea name="message" rows="8" cols="80"></textarea>
+			<div class="form-section">
+				<form action="/" method="POST">
+					<h4>Send a Message</h4>
+					<input type="text" name="name" required="" placeholder="Name">
+					<input type="text" name="email" required="" placeholder="Email">
+					<input type="text" name="budget" placeholder="Budget">
+					<textarea name="message" rows="12" required="" placeholder="Message"></textarea>
+
+					<button type="submit">Send Message</button>
+				</form>
 			</div>
 		</div>
-		<div class="profile-section">
-			<div class="profile">
-			<h1>Jeremy <br> 
-			<span>Herring</span></h1>
-			<h5>Web Developer</h5>
-			<p>Steamed trifecta and spoon froth mocha and turkish saucer shop americano. Americano dripper café au lait, ristretto mazagran, single origin variety percolator coffee ristretto in steamed. Grinder, filter rich sugar foam irish arabica cappuccino half and half.Steamed trifecta and spoon froth mocha and turkish saucer shop americano.</p>
+		<div class="contact-section">
+			<div class="contact-info">
+				<h1>Contact US</h1>
+				<div class="contact-box">
+					<h5>Phone</h5>
+					<p>708-263-9745</p>
+				</div>
+				<div class="contact-box">
+					<h5>Email</h5>
+					<p>j.herring.8989@gmail.com</p>
+				</div>
+				<div class="contact-box">
+					<h5>Location</h5>
+					<p>Chicago,IL</p>
+				</div>
 			</div>
-			<a href="#" class="primary-btn"> Portfolio</a>
-			<a href="#" class="ghost-btn"> Resume</a>
 		</div>
 	</section>
 	
